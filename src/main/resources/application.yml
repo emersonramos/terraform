@@ -1,0 +1,13 @@
+#
+# [ Database Configuration Section ]
+#
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/acesso
+    username: postgres
+    password: postgres
+    platform: POSTGRESQL
+  jpa:
+    show-sql: true
+server:
+  port: 9095
